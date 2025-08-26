@@ -5,11 +5,11 @@ const quotes = [
     },
     {
         quote: "Dvakrát měř, jednou řež.",
-        translation: "두 번 재고 한 번 자르라.",
+        translation: "두 번 잰 후에 한 번 자르라.",
     },
     {
         quote: "Co se lehce nabude, snadno se pozbude.",
-        translation: "얻기 쉬운 것은 잃기 쉽다.",
+        translation: "얻기 쉬운 것은 잃기도 쉽다.",
     },
     {
         quote: "Mluviti stříbro, mlčeti zlato.",
@@ -25,7 +25,7 @@ const quotes = [
     },
     {
         quote: "Jak si kdo ustele, tak si lehne.",
-        translation: "자신이 깐 침대에 자신이 눕는다.",
+        translation: "내가 만든 침대에 내가 눕는다.",
     },
     {
         quote: "Darovanému koni na zuby nehleď.",
@@ -51,4 +51,5 @@ function selectRandomQuote() {
 }
 
 selectRandomQuote()
+
 setInterval(selectRandomQuote, 10000);
